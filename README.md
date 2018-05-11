@@ -3,4 +3,7 @@ An application that takes an input video of a moving human subject wearing color
   
 ### Getting Started
 * Must have OpenCV 3.3.0 C++ and Qt Creator 4.5.1 installed.
-* Build and run the project in QtCreator
+### Running the project 
+* build and run project Qt Creator OR
+* open MotionCaptureAnimator-release in terminal
+  - `make` and `./MotionCaptureAnimator` 
