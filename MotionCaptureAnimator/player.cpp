@@ -116,9 +116,12 @@ void Player::openVids()
 void Player::run()
 {
     if (ready == false) {
+//        QElapsedTimer timer;
+//        timer.start();
         processVideo();
         openVids();
         ready = true;
+//        cout << "Processing and writing took " << timer.elapsed() << " milliseconds\n";
         emit outputsReady();
     }
     int delay = (1000/frameRate);

@@ -73,7 +73,6 @@ Mat Animator::thresholdColor(Mat img, Scalar lower, Scalar upper)
 
     inRange(imgHSV, lower, upper, imgThreshed);
 
-//    erode(imgThreshed, imgThreshed, erosionElement);
     dilate(imgThreshed, imgThreshed, dilationElement);
 
     imgHSV.release();

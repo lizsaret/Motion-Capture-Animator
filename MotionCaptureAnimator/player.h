@@ -6,6 +6,7 @@
 #include <QImage>
 #include <QWaitCondition>
 #include <QDir>
+#include <QElapsedTimer>
 #include <global.h>
 #include <animator.h>
 
